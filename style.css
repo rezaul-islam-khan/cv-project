@@ -1,0 +1,77 @@
+.container{
+   
+   background-color: rgb(168, 221, 252);
+   width: 1000px;
+   margin: 0 auto;
+   box-sizing: border-box;
+   padding: 10px;
+}
+h1,h2,h3,h4,h5,h6{
+    color:rgb(34, 135, 202);
+}
+.head{
+    padding: 20px;
+}
+.image{
+    height: 120px;
+    width: 100px;
+    border: 2px solid silver;
+    border-radius: 50%;
+    float: left;
+    
+}
+.bio{
+    float: left;
+    padding: 20px;
+}
+.contact-info{
+    float: right;
+}
+.contact-info a{
+    text-decoration: none;
+    color:rgb(12, 11, 12);
+}
+.contact-info a:hover{
+    color: tomato;
+}
+
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 2px solid gray;
+}
+
+/* personal information
+..................................... */
+.personal-info{
+
+}
+.content{
+
+}
+.left-div{
+    float: left;
+    width: 30%;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    border: 1px solid orangered;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.bottom-container{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+.bottom-container a{
+    text-decoration: none;
+    color: white;margin: 10px;
+    
+}
